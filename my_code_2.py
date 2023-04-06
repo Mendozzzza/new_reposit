@@ -21,15 +21,17 @@ try:
   check_box = browser.find_element(By.ID, 'robotCheckbox')
   check_box.click()
 
+
+#   print(x)
+#   print(y)
+
+
   robot_rule = browser.find_element(By.ID, 'robotsRule')
   robot_rule.click()
 
   button = browser.find_element(By.TAG_NAME, "button")
   button.click()
 
-
-#   print(x)
-#   print(y)
 
 finally:
   time.sleep(10)
