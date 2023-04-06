@@ -26,6 +26,34 @@ try:
 #   print(y)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   robot_rule = browser.find_element(By.ID, 'robotsRule')
   robot_rule.click()
 
